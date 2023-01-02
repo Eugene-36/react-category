@@ -40,6 +40,21 @@
 .priceLabel {
   cursor: pointer;
 }
+.flexArrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.down {
+  transform: rotateX(180deg);
+}
+.up {
+  transform: rotateX(0deg);
+}
+.css-13cymwt-control {
+  cursor: pointer;
+}
 /* width: 250px;
     height: 50px;
     border-redius: 50px;
